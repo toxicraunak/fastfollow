@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 import platform, subprocess
+import os,sys
+#os.system( 'f'xdg-open https://t.me/haxkx')
 
-if __name__ == '__main__':
+#os.system (f'xdg-open https://t.me/covidtrixcker')
+os.system(f'xdg-open https://t.me/addlist/sCAXu_wpqXY1Nzhl')
+if name == 'main':
     try:
         if platform.machine() == "aarch64":
             subprocess.call(["chmod", "+x", "aarch64"])
