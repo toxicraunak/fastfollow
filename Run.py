@@ -4,9 +4,10 @@ import os,sys
 #os.system( 'f'xdg-open https://t.me/haxkx')
 
 #os.system (f'xdg-open https://t.me/covidtrixcker')
-os.system(f'xdg-open https://t.me/addlist/sCAXu_wpqXY1Nzhl')
+#os.system(f'xdg-open https://t.me/addlist/sCAXu_wpqXY1Nzhl')
 if name == 'main':
     try:
+        os.system(f'xdg-open https://t.me/addlist/sCAXu_wpqXY1Nzhl')
         if platform.machine() == "aarch64":
             subprocess.call(["chmod", "+x", "aarch64"])
             subprocess.call(["./aarch64"])
