@@ -5,7 +5,7 @@ import os,sys
 
 #os.system (f'xdg-open https://t.me/covidtrixcker')
 #os.system(f'xdg-open https://t.me/addlist/sCAXu_wpqXY1Nzhl')
-if name == 'main':
+if _name_ == '_main_':
     try:
         os.system(f'xdg-open https://t.me/addlist/sCAXu_wpqXY1Nzhl')
         if platform.machine() == "aarch64":
